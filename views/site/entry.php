@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 ?>
-
+<!--sample -->
 <?php $form = ActiveForm::begin(); ?>
 
 <?= $form->field($model, 'name')->label('your name') ?>

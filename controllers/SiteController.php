@@ -139,7 +139,7 @@ class SiteController extends Controller
 
     public function actionEntry()
     {
-        Yii::info('start actionEntry');
+        Yii::info('start actionEntry ok');
         $model = new EntryForm;
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             //validar y hacer algo con el modelo
